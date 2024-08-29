@@ -1,0 +1,42 @@
+@model IEnumerable<ResumeManager.Models.Applicant>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<p> 
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+            <th>Qualification</th>
+            <th>TotalExperience</th>
+            
+        </tr>
+
+    @foreach (var item in Model){
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Gender) 
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Age) 
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Qualification)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TotalExperience)
+        </td>
+    </tr>
+    }
+    </thead>
+</table>
