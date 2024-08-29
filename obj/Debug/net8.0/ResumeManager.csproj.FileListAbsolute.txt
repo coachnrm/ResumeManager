@@ -134,3 +134,4 @@ D:\ResumeManager\obj\Debug\net8.0\refint\ResumeManager.dll
 D:\ResumeManager\obj\Debug\net8.0\ResumeManager.pdb
 D:\ResumeManager\obj\Debug\net8.0\ResumeManager.genruntimeconfig.cache
 D:\ResumeManager\obj\Debug\net8.0\ref\ResumeManager.dll
+D:\ResumeManager\obj\Debug\net8.0\ResumeManager.sourcelink.json
